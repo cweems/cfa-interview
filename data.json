@@ -1,0 +1,65 @@
+var weatherData = {
+	"San Francisco": {
+		"temperature": 66.6,
+		"weather": "Mostly Cloudy",
+		"wind chill": 0.0,
+		"chance precipitation": 10
+		
+	},
+	"Oakland": {
+		"temperature": 69.1,
+		"weather": "Mostly Cloudy",
+		"wind chill": 0.0,
+		"chance precipitation": 0
+	},
+	"San Jose": {
+		"temperature": 80.4,
+		"weather": "Clear",
+		"wind chill": 0,
+		"chance precipitation": 0
+
+	},
+	"San Francisco": {
+		"temperature": 64.0,
+		"weather": "Partly Cloudy",
+		"wind chill": 0.0,
+		"chance precipitation": 0
+	},
+	"Oakland": {
+		"temperature": 64.0,
+		"weather": "Partly Cloudy",
+		"wind chill": 0.0,
+		"chance precipitation": 0
+	},
+	"Oakland": {
+		"temperature": 64.0,
+		"weather": "Partly Cloudy",
+		"wind chill": 0.0,
+		"chance precipitation": 0
+	},
+	"San Jose": {
+		"temperature": 72.0,
+		"weather": "Partly Cloudy",
+		"wind chill": 0,
+		"chance precipitation": 0
+	},
+	"San Jose": {
+		"temperature": 72.0,
+		"weather": "Partly Cloudy",
+		"wind chill": 0,
+		"chance precipitation": 0
+	},
+	"San Jose": {
+		"temperature": 72.0,
+		"weather": "Partly Cloudy",
+		"wind chill": 0,
+		"chance precipitation": 0
+	},
+
+	"San Francisco": {
+		"temperature": 63.5,
+		"weather": "Partly Cloudy",
+		"wind chill": 0.0,
+		"chance precipitation": 10
+	},
+}

@@ -1,0 +1,158 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div id="welcome-modal">
+            <h1 class="text-center">Welcome to the CFA Weather Forecaster!</h1>
+            <h2 class="text-center">Pick Your City Below:</h2>
+            <div class="col-sm-6 col-sm-offset-3">
+                <ol id="city-picker"></ol>
+            </div>
+        </div>
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#">CfAWeather</a>
+              </div>
+
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <button type="button" data-scroll="#sf" class="btn btn-default navbar-btn">San Francisco</button>
+                    <button type="button" data-scroll="#oak" class="btn btn-default navbar-btn">Oakland</button>
+                    <button type="button" data-scroll="#sj" class="btn btn-default navbar-btn">San Jose</button>
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <div id="weather-listing" class="container">
+            <div id="sf" class="panel panel-default">
+                <div class="panel-heading sunny">
+                    <h1 class="text-center city-name">San Francisco</h1>
+                </div>
+                <div class="panel-body">
+                    <h1 class="text-center">64° | Currently Sunny</h1>
+                    <p class="text-center">Wind Chill: 0.0 | Chance of Rain: %0</p>
+                    <hr>
+                    <div class="container">
+                        <div class="col-xs-3">
+                            <p>Mon</p>
+                            <p>Rainy</p>
+                            <p>66°</p>
+                        </div>
+                        <div class="col-xs-3">
+                            <p>Tue</p>
+                            <p>Sunny</p>
+                            <p>23°</p>
+                        </div>
+                        <div class="col-xs-3">
+                            <p>Wed</p>
+                            <p>Partly Cloudy</p>
+                            <p>44°</p>
+                        </div>
+                        <div class="col-xs-3">
+                            <p>Thurs</p>
+                            <p>Sunny</p>
+                            <p>60°</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="oak" class="panel panel-default">
+                <div class="panel-heading raining">
+                    <h1 class="text-center city-name">Oakland</h1>
+                </div>
+                <div class="panel-body">
+                    <h1 class="text-center">64° | Currently Raining</h1>
+                    <p class="text-center">Wind Chill: 0.0 | Chance of Rain: %0</p>
+                    <hr>
+                    <div class="container">
+                        <div class="col-xs-3">
+                            <p>Mon</p>
+                            <p>Rainy</p>
+                            <p>66°</p>
+                        </div>
+                        <div class="col-xs-3">
+                            <p>Tue</p>
+                            <p>Sunny</p>
+                            <p>23°</p>
+                        </div>
+                        <div class="col-xs-3">
+                            <p>Wed</p>
+                            <p>Partly Cloudy</p>
+                            <p>44°</p>
+                        </div>
+                        <div class="col-xs-3">
+                            <p>Thurs</p>
+                            <p>Sunny</p>
+                            <p>60°</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="sj" class="panel panel-default city-panel">
+                <div class="panel-heading cloudy">
+                    <h1 class="text-center city-name">San Jose</h1>
+                </div>
+                <div class="panel-body">
+                    <h1 class="text-center">64° | Currently Cloudy</h1>
+                    <p class="text-center">Wind Chill: 0.0 | Chance of Rain: %0</p>
+                    <hr>
+                    <div class="container">
+                        <div class="col-xs-3">
+                            <p>Mon</p>
+                            <p>Rainy</p>
+                            <p>66°</p>
+                        </div>
+                        <div class="col-xs-3">
+                            <p>Tue</p>
+                            <p>Sunny</p>
+                            <p>23°</p>
+                        </div>
+                        <div class="col-xs-3">
+                            <p>Wed</p>
+                            <p>Partly Cloudy</p>
+                            <p>44°</p>
+                        </div>
+                        <div class="col-xs-3">
+                            <p>Thurs</p>
+                            <p>Sunny</p>
+                            <p>60°</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="data.json"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                runMagic();
+            });
+        </script>
+        
+    </body>
+</html>
