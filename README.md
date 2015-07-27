@@ -7,3 +7,6 @@ A few quick notes on my approach:
 * Rather than have the information hidden in tabs, I opted for a scrolling approach, which I thought would be easier for mobile users.
 
 Lots more I'd like to do, but this should be a good start!
+
+![City-Picker Screenshot](https://github.com/cweems/cfa-interview/blob/screenshots/img/modal.png "City Picker")
+![Weather Display Screenshot](https://github.com/cweems/cfa-interview/blob/screenshots/img/info.png "Weather Display")
